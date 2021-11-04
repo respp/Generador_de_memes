@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: rgb(202, 154, 125);
+}
+
+img{
+  max-width: 400px;
+  min-width: 300px;
+  overflow:auto;
+}
+
+h1{
+  -webkit-text-stroke: 1px rgb(207, 207, 207);
+  text-shadow: 0 0 15px blanchedalmond;
+}
+
+.main-container{
+  background-color: rgb(12, 12, 12);
+  margin: 30px 0;
+  max-width: 500px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container span {
+  font-size: 2em;
+  color: aliceblue;
+  -webkit-text-stroke: 1px black;
+  font-family: fantasy;
+  display: block;
+  overflow:hidden;
+}
+
+@media screen and (max-width:400px){
+  img{
+    width: 200px;
+  }
+
+  .main-container{
+    max-width: 360px;
+  }
+
+}
